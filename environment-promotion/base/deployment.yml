@@ -18,7 +18,7 @@ spec:
       containers:
       - name: webserver-simple
         imagePullPolicy: Always
-        image: docker.io/kostiscodefresh/simple-env-app:1.0
+        image: ghcr.io/adamczepiel78/gitops-ii:1.0
         ports:
         - containerPort: 8080        
         env:
