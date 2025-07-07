@@ -4,7 +4,7 @@ metadata:
   name: follow-semver02
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: ghcr.io/adamczepiel78/gitops-II:1.0:~1
+    argocd-image-updater.argoproj.io/image-list: ghcr.io/adamczepiel78/gitops-ii:~1
 spec:
   project: default
 
