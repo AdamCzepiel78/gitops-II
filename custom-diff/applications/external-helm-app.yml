@@ -24,7 +24,6 @@ spec:
 
   ignoreDifferences:
   - kind: Secret
-    name: example-secret
     jsonPointers:
     - /data/my-password
    
